@@ -1,0 +1,2 @@
+cff: improper arguments list
+Usage: cf_run 'ouput file' 'problem name(ex. A,B...)'

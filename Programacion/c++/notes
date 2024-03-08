@@ -1,0 +1,12 @@
+\section*{Explicación de la Solución Casi Ingenua}
+
+Consideremos un color fijo. Cuando buscamos una carta de ese color, tomamos la carta con el índice mínimo y, después de colocarla en la parte superior de la baraja, sigue siendo la de índice mínimo.
+
+Esto implica que, para cada color, tomamos y movemos la misma carta, es decir, una carta para cada color. En otras palabras, solo necesitamos hacer un seguimiento de $k$ cartas, donde $k$ es el número de colores ($k \leq 50$). Como resultado, si $\text{pos}_c$ es la posición de una carta de color $c$, podemos simular una consulta de la siguiente manera: para cada color $c$ tal que $\text{pos}_c < \text{pos}_j$, incrementamos $\text{pos}_c$ en uno (ya que la carta se moverá hacia abajo) y luego establecemos $\text{pos}_j = 1$. La complejidad es $O(n + qk)$.
+
+Sin embargo, al observar más de cerca, notamos que ni siquiera necesitamos el arreglo $\text{pos}_c$. Casi podemos encontrar manualmente la primera carta de color $t_j$ y moverla a la primera posición ya sea mediante una serie de intercambios o, por ejemplo, utilizando la función rotate (presente en C++), y funcionará rápidamente.
+
+¿Por qué? Por primera vez, costará $O(n)$ operaciones buscar la carta correspondiente y moverla a la posición $1$. Después de eso, en cualquier momento, la posición de la carta no superará $k$, ya que todas las cartas anteriores son distintas entre sí (debido a la naturaleza de las consultas). Entonces, todos los movimientos posteriores del color $c$ cuestan solo $O(k)$.
+
+Como resultado, la complejidad de esta solución casi ingenua es $O(kn + qk)$.
+

@@ -1,0 +1,79 @@
+\documentclass{article}
+
+\begin{document}
+
+\section*{CP Scripts}
+
+Estoy intentando aprender a hacer scripts en bash al mismo tiempo que intento utilizarlos para acelerar mi experiencia en la programación competitiva. Por ahora, solo he creado un script llamado \texttt{cf\_run}, que ejecuta casos de prueba de ejemplo tomados de la página del problema en Codeforces y los ejecuta con el archivo de salida de tu programa, mostrando cuántos de los casos de prueba de ejemplo fueron superados.
+
+Soy un principiante en bash scripting, así que aparentemente no pude capturar todos los errores y también el código puede contener algunos fragmentos de código innecesarios.
+
+\subsection*{Scripts}
+
+\begin{itemize}
+    \item \texttt{cf\_run}: Ejecuta los casos de prueba de ejemplo y muestra el estado de la salida para concursos de Codeforces.
+\end{itemize}
+
+\subsection*{Uso}
+
+Los scripts se han probado en Ubuntu 20.04 (si el script funciona en tu dispositivo también, siéntete libre de agregarlo aquí). Puedes seguir estos pasos para que funcionen.
+
+\begin{enumerate}
+    \item Clona este repositorio usando el comando \texttt{git clone}.
+    \item Asegúrate de que todos los scripts sean ejecutables; si no lo son, puedes hacerlos ejecutables usando el comando \texttt{chmod +x nombre-del-script}.
+    \item Agrega este directorio a tu variable de entorno \texttt{PATH}, para poder usarlo desde cualquier lugar.
+    \item Sigue los pasos respectivos para cada directorio.
+\end{enumerate}
+
+\subsection*{cf\_run}
+
+Este script ejecutará tu programa contra los casos de prueba de ejemplo presentes en la página del problema en Codeforces, de ahí el nombre \texttt{cf\_run}. Para que funcione, debes asegurarte de lo siguiente:
+
+\begin{enumerate}
+    \item Debes crear un directorio para el concurso en el que estás participando. Digamos que estás participando en el concurso 1619, entonces debes crear un directorio con el mismo nombre usando el comando \texttt{mkdir 1619 \&\& cd 1619}.
+    \item Supongamos que, para la declaración del problema A, creas un archivo llamado \texttt{a.cpp} y lo compilas. Digamos que el archivo compilado tiene el nombre \texttt{a.out}.
+    \item Luego, para ejecutar tu archivo, usarás el comando \texttt{cf\_run a.out A}, que básicamente ejecuta casos de prueba de ejemplo para la declaración del problema A contra el archivo \texttt{a.out}.
+\end{enumerate}
+
+Funcionamiento: Toma el ID del concurso del nombre de tu directorio (en este caso, 1619), luego, utilizando este ID y el segundo argumento del comando (es decir, el código del problema, aquí A), realiza un raspado de la página web https://codeforces.com/contest/1619/problem/A.
+
+\section{section name}%
+\label{sec:section name}
+\section*{D. Co-crecimiento de Secuencias}
+\subsection*{Límite de tiempo por prueba: 2 segundos \\ Límite de memoria por prueba: 512 megabytes}
+Una secuencia de enteros no negativos \(a_1, a_2, \dots, a_n\) se llama creciente si, para todo \(i\) desde \(1\) hasta \(n - 1\), todos los unos (en representación binaria) en \(a_i\) están en las mismas posiciones que los unos en \(a_{i + 1}\) (en otras palabras, \(a_i \: \& \: a_{i + 1} = a_i\), donde \(\&\) denota la operación AND a nivel de bits). Si \(n = 1\), entonces la secuencia también se considera creciente.
+
+Por ejemplo, las siguientes cuatro secuencias son crecientes:
+\begin{itemize}
+  \item \( [2, 3, 15, 175] \) — en binario es \( [10_2, 11_2, 1111_2, 10101111_2] \);
+  \item \( [5] \) — en binario es \( [101_2] \);
+  \item \( [1, 3, 7, 15] \) — en binario es \( [1_2, 11_2, 111_2, 1111_2] \);
+  \item \( [0, 0, 0] \) — en binario es \( [0_2, 0_2, 0_2] \).
+\end{itemize}
+
+Las siguientes tres secuencias no son crecientes:
+\begin{itemize}
+  \item \( [3, 4, 5] \) — en binario es \( [11_2, 100_2, 101_2] \);
+  \item \( [5, 4, 3] \) — en binario es \( [101_2, 100_2, 011_2] \);
+  \item \( [1, 2, 4, 8] \) — en binario es \( [0001_2, 0010_2, 0100_2, 1000_2] \).
+\end{itemize}
+
+Consideremos dos secuencias de enteros no negativos \(x_1, x_2, \dots, x_n\) y \(y_1, y_2, \dots, y_n\). Llamemos a este par de secuencias co-creciente si la secuencia \(x_1 \oplus y_1, x_2 \oplus y_2, \dots, x_n \oplus y_n\) es creciente, donde \(\oplus\) denota la operación XOR a nivel de bits.
+
+Se te proporciona una secuencia de enteros \(x_1, x_2, \dots, x_n\). Encuentra la secuencia \(y_1, y_2, \dots, y_n\) lexicográficamente mínima tal que las secuencias \(x_i\) e \(y_i\) son co-crecientes.
+
+La secuencia \(a_1, a_2, \dots, a_n\) es lexicográficamente menor que la secuencia \(b_1, b_2, \dots, b_n\) si existe \(1 \le k \le n\) tal que \(a_i = b_i\) para cualquier \(1 \le i < k\), pero \(a_k < b_k\).
+
+\subsection*{Entrada}
+La primera línea contiene un entero \(t\) (\(1 \le t \le 10^4\)). Luego siguen \(t\) casos de prueba.
+
+La primera línea de cada caso de prueba contiene un entero \(n\) (\(1 \le n \le 2 \cdot 10^5\)) — longitud de la secuencia \(x_i\).
+
+La segunda línea contiene \(n\) enteros \(x_1, x_2, \dots, x_n\) (\(0 \le x_i < 2^{30}\)) — elementos de la secuencia \(x_i\). Se garantiza que la suma de \(n\) en todos los casos de prueba no supera \(2 \cdot 10^5\).
+
+\subsection*{Salida}
+Para cada caso de prueba, imprime \(n\) enteros \(y_1, y_2, \dots, y_n\) (\(0 \le y_i < 2^{30}\)) — secuencia lexicográficamente mínima tal que es co-creciente con la secuencia dada \(x_i\).
+
+
+\end{document}
+

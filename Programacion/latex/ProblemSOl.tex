@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Descripción del Problema}
+
+Se te da una secuencia $a = [a_1, a_2, \ldots, a_n]$ que consiste en $n$ enteros positivos.
+
+Llamemos grupo a un conjunto de elementos consecutivos, llamado segmento. Cada segmento está caracterizado por dos índices: el índice de su extremo izquierdo y el índice de su extremo derecho. Denotamos por $a[l, r]$ a un segmento de la secuencia $a$ con el extremo izquierdo en $l$ y el extremo derecho en $r$, es decir, $a[l, r] = [a_l, a_{l+1}, \ldots, a_r]$.
+
+Por ejemplo, si $a = [31, 4, 15, 92, 6, 5]$, entonces $a[2, 5] = [4, 15, 92, 6]$, $a[5, 5] = [6]$, $a[1, 6] = [31, 4, 15, 92, 6, 5]$ son segmentos.
+
+Dividimos la secuencia dada $a$ en segmentos de manera que:
+
+\begin{itemize}
+    \item Cada elemento esté exactamente en un segmento.
+    \item Las sumas de los elementos para todos los segmentos sean iguales.
+\end{itemize}
+
+Por ejemplo, si $a = [55, 45, 30, 30, 40, 100]$, entonces esta secuencia se puede dividir en tres segmentos: $a[1,2] = [55, 45]$, $a[3,5] = [30, 30, 40]$, $a[6,6] = [100]$. Cada elemento pertenece exactamente a un segmento, y la suma de los elementos de cada segmento es 100.
+
+Definimos el grosor de la división como la longitud del segmento más largo. Por ejemplo, el grosor de la división del ejemplo anterior es 3.
+
+Encuentra el grosor mínimo entre todas las divisiones posibles de la secuencia dada $a$ en segmentos de la manera requerida.
+
+\section{2}
+
+Recientemente, para su cumpleaños, Fedya recibió un arreglo $a$ de $n$ enteros dispuestos en un círculo. Para cada par de números vecinos ($a_1$ y $a_2$, $a_2$ y $a_3$, ..., $a_{n-1}$ y $a_n$, $a_n$ y $a_1$), la diferencia absoluta entre ellos es igual a 1.
+
+Llamemos máximo local a un elemento que es mayor que ambos de sus elementos vecinos. También llamamos mínimo local a un elemento que es menor que ambos de sus elementos vecinos. Ten en cuenta que los elementos $a_1$ y $a_n$ son vecinos.
+
+Desafortunadamente, Fedya perdió un arreglo, pero recordó en él la suma de los máximos locales $x$ y la suma de los mínimos locales $y$.
+
+Dado $x$ e $y$, ayuda a Fedya a encontrar cualquier arreglo coincidente de longitud mínima.
+
+\section{problem1}%
+\label{sec:problem1}
+Se te proporciona una cuadrícula de $n \times m$ de enteros no negativos $a$. El valor $a_{i,j}$ representa la profundidad del agua en la fila $i$ y columna $j$.
+
+Un lago es un conjunto de celdas tal que:
+
+\begin{itemize}
+    \item Cada celda en el conjunto tiene $a_{i,j} > 0$.
+    \item Existe un camino entre cualquier par de celdas en el lago yendo hacia arriba, abajo, izquierda o derecha un número de veces y sin pisar una celda con $a_{i,j} = 0$.
+\end{itemize}
+
+El volumen de un lago es la suma de las profundidades de todas las celdas en el lago.
+
+Encuentra el mayor volumen de un lago en la cuadrícula.
+
+
+\section{contestB}%
+\label{sec:contestB}
+Estás jugando un juego de computadora. El nivel actual de este juego se puede modelar como una línea recta. Tu personaje está en el punto 0 de esta línea. Hay $n$ monstruos tratando de matar a tu personaje; el $i$-ésimo monstruo tiene una salud igual a $a_i$ y está inicialmente en el punto $x_i$.
+
+Cada segundo, sucede lo siguiente:
+
+\begin{itemize}
+    \item Primero, disparas hasta $k$ balas a los monstruos. Cada bala apunta a exactamente un monstruo y disminuye su salud en 1. Por cada bala, eliges su objetivo arbitrariamente (por ejemplo, puedes disparar todas las balas a un monstruo, disparar todas las balas a diferentes monstruos, o elegir cualquier otra combinación). Cualquier monstruo puede ser objetivo de una bala, independientemente de su posición y de otros factores;
+    \item Luego, todos los monstruos vivos con salud 0 o menos mueren;
+    \item Después, todos los monstruos vivos se mueven 1 punto más cerca de ti (los monstruos a la izquierda de ti aumentan sus coordenadas en 1, los monstruos a la derecha de ti disminuyen sus coordenadas en 1). Si algún monstruo llega a tu personaje (se mueve al punto 0), pierdes.
+\end{itemize}
+
+¿Puedes sobrevivir y matar a todos los $n$ monstruos sin permitir que ninguno de ellos llegue a tu personaje?
+
+
+\section{3}%
+\label{sec:3}
+
+Un arreglo $a$ de longitud $m$ se considera bueno si existe un arreglo de enteros $b$ de longitud $m$ tal que se cumplen las siguientes condiciones:
+
+\[
+\sum_{i=1}^{m} a_i = \sum_{i=1}^{m} b_i
+\]
+
+\[
+a_i \neq b_i \quad \text{para cada índice } i \text{ de } 1 \text{ a } m
+\]
+
+\[
+b_i > 0 \quad \text{para cada índice } i \text{ de } 1 \text{ a } m
+\]
+
+Se te da un arreglo $c$ de longitud $n$. Cada elemento de este arreglo es mayor que 0.
+
+Debes responder $q$ consultas. Durante la $i$-ésima consulta, debes determinar si el subarreglo $c_{l_i}, c_{l_i+1}, \ldots, c_{r_i}$ es bueno.
+
+
+\section{section name}%
+\label{sec:section name}
+
+Se te da una secuencia $a_1, a_2, \ldots, a_n$. Puedes realizar operaciones en la secuencia. En cada operación, puedes elegir un entero $i$ $(1 \leq i < n)$ y intercambiar los elementos $a_i$ y $a_{i+1}$ de la secuencia, si $a_i + a_{i+1}$ es impar.
+
+Determina si es posible ordenar la secuencia en orden no decreciente utilizando esta operación cualquier cantidad de veces.
+
+
+
+\end{document}

@@ -1,0 +1,12 @@
+{
+  "tabSize": 7,
+  "vimMode": true,
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "./assets/1851D"
+}

@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "bd4e28a8cda58197",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0c6053c7424daf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "194ceb8f48d33e36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GOICPC/Problems/1851D.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc566bd23003b98b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7a82dcbd0fc3ae9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4342eb08e09ef116",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b311d91b640143cb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b25c5b57ae4d21d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3519140bbfadc7eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc1c7939a52968c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c160997095aff59d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GOICPC/Problems/1851D.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "66a426901d5a2c67",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GOICPC/Problems/1851D.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f240dd678fa16f2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "509a58456d9370c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GOICPC/Problems/1851D.md"
+              }
+            }
+          },
+          {
+            "id": "35c0758ebcd6f82a",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "15014d74e1304831",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "dbfolder:Crear una nueva tabla de base de datos": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "194ceb8f48d33e36",
+  "lastOpenFiles": [
+    "README.md",
+    "Programacion/scripts/CP-Scripts/screenshots/cf_run_wrong_sol.png",
+    "Programacion/scripts/CP-Scripts/screenshots/cf_run_accepted_sol.png",
+    "Programacion/c++/contest/1737/temp.txt",
+    "Programacion/c++/contest/1737/output.txt",
+    "Programacion/c++/contest/1737/input.txt",
+    "Programacion/c++/contest/1737/a.cpp",
+    "Programacion/c++/contest/1737/a",
+    "Programacion/c++/contest/1030/temp.txt",
+    "Programacion/c++/contest/1030/output.txt",
+    "Programacion/c++/contest/1030/input.txt",
+    "Programacion/c++/contest/1030/a",
+    "Programacion/c++/contest/1030/1030B.cpp",
+    "Programacion/scripts/CP-Scripts/README.md",
+    "GOICPC/Problems/Metcognition.md",
+    "GOICPC/Problems/1851D.md",
+    "GOICPC/Problems/1496B.md",
+    "GOICPC/Problems/1780B.md",
+    "GOICPC/Problems/1838B.md",
+    "GOICPC/Problems/1649B.md",
+    "GOICPC/Problems/1523B.md",
+    "GOICPC/Problems/1790D.md",
+    "GOICPC/Problems/1638B.md",
+    "GOICPC/Algoritmos/Programacion Dinamica.md",
+    "2024-03-06.md",
+    "GOICPC/Metacognicion.md",
+    "obsidian-habit-mood-tracker/Habit Tracker.md",
+    "obsidian-habit-mood-tracker/Resources/Templates/Daily Note.md",
+    "obsidian-habit-mood-tracker/Mood Tracker - no CJS.md",
+    "obsidian-habit-mood-tracker/Daily Notes/2022-01-05.md",
+    "obsidian-habit-mood-tracker/Daily Notes/2022-01-04.md",
+    "obsidian-habit-mood-tracker/Daily Notes/2022-01-03.md",
+    "obsidian-habit-mood-tracker/Daily Notes/2022-01-02.md",
+    "obsidian-habit-mood-tracker/Daily Notes/2022-01-01.md",
+    "obsidian-habit-mood-tracker/images/task-collector.png",
+    "obsidian-habit-mood-tracker/images/habit-mood-tracker-demo.png",
+    "obsidian-habit-mood-tracker/README.md",
+    "obsidian-habit-mood-tracker/Mood Tracker.md",
+    "obsidian-habit-mood-tracker/Habit Tracker - no CJS.md",
+    "GOICPC/Progreso/Seguimiento_del_Progreso.md",
+    "Pasted image 20240225150835.png"
+  ]
+}
