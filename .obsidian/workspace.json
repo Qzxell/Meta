@@ -169,6 +169,8 @@
   },
   "active": "194ceb8f48d33e36",
   "lastOpenFiles": [
+    "config.py",
+    "init.vim",
     "README.md",
     "Programacion/scripts/CP-Scripts/screenshots/cf_run_wrong_sol.png",
     "Programacion/scripts/CP-Scripts/screenshots/cf_run_accepted_sol.png",
@@ -181,7 +183,6 @@
     "Programacion/c++/contest/1030/output.txt",
     "Programacion/c++/contest/1030/input.txt",
     "Programacion/c++/contest/1030/a",
-    "Programacion/c++/contest/1030/1030B.cpp",
     "Programacion/scripts/CP-Scripts/README.md",
     "GOICPC/Problems/Metcognition.md",
     "GOICPC/Problems/1851D.md",
@@ -208,7 +209,6 @@
     "obsidian-habit-mood-tracker/README.md",
     "obsidian-habit-mood-tracker/Mood Tracker.md",
     "obsidian-habit-mood-tracker/Habit Tracker - no CJS.md",
-    "GOICPC/Progreso/Seguimiento_del_Progreso.md",
     "Pasted image 20240225150835.png"
   ]
 }
