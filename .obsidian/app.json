@@ -1,5 +1,5 @@
 {
-  "tabSize": 7,
+  "tabSize": 4,
   "vimMode": true,
   "readableLineLength": false,
   "pdfExportSettings": {
@@ -8,5 +8,5 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "attachmentFolderPath": "./assets/1851D"
+  "attachmentFolderPath": "./assets/126A"
 }

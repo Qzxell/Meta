@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GOICPC/Problems/1851D.md",
+                "file": "GOICPC/ProblemsCF/126A.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3519140bbfadc7eb",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GOICPC/Problems/1851D.md",
+                "file": "GOICPC/ProblemsCF/126A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GOICPC/Problems/1851D.md",
+                "file": "GOICPC/ProblemsCF/126A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GOICPC/Problems/1851D.md"
+                "file": "GOICPC/ProblemsCF/126A.md"
               }
             }
           },
@@ -155,13 +156,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "dbfolder:Crear una nueva tabla de base de datos": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
+      "dbfolder:Crear una nueva tabla de base de datos": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false
@@ -169,46 +170,46 @@
   },
   "active": "194ceb8f48d33e36",
   "lastOpenFiles": [
+    "GOICPC/ProblemsCF/Metcognition.md",
+    "GOICPC/ProblemsCF/126A.md",
+    "GOICPC/ProblemsAtcoder/340d.md",
+    "GOICPC/ProblemsAtcoder/Metcognition.md",
+    "GOICPC/ProblemsAtcoder/340c.md",
+    "GOICPC/ProblemsAtcoder/338c.md",
+    "GOICPC/ProblemsCF/1352D.md",
+    "GOICPC/ProblemsAtcoder/1810C.md",
+    "GOICPC/ProblemsAtcoder/1937B.md",
+    "GOICPC/ProblemsAtcoder/1937A.md",
+    "GOICPC/ProblemsAtcoder/1934C.md",
+    "GOICPC/ProblemsAtcoder/1933E.md",
+    "GOICPC/ProblemsAtcoder/1933D.md",
+    "GOICPC/ProblemsAtcoder/1933C.md",
+    "GOICPC/ProblemsAtcoder/1933B.md",
+    "GOICPC/ProblemsAtcoder/1933A.md",
+    "GOICPC/ProblemsAtcoder/1902C.md",
+    "GOICPC/ProblemsAtcoder/1899B.md",
+    "GOICPC/ProblemsAtcoder/1879C.md",
+    "GOICPC/ProblemsAtcoder/1857D.md",
+    "GOICPC/ProblemsAtcoder/1857B.md",
+    "GOICPC/ProblemsAtcoder/1851D.md",
+    "GOICPC/ProblemsAtcoder/1844C.md",
+    "GOICPC/ProblemsAtcoder/1838B.md",
+    "GOICPC/ProblemsAtcoder/1836B.md",
+    "GOICPC/ProblemsAtcoder/1790D.md",
+    "GOICPC/ProblemsAtcoder",
+    "GOICPC/ProblemsCF - Copy",
+    "Programacion/latex/teoria.pdf",
+    "Programacion/latex/ProblemSOl.pdf",
     "config.py",
     "init.vim",
-    "README.md",
     "Programacion/scripts/CP-Scripts/screenshots/cf_run_wrong_sol.png",
     "Programacion/scripts/CP-Scripts/screenshots/cf_run_accepted_sol.png",
     "Programacion/c++/contest/1737/temp.txt",
     "Programacion/c++/contest/1737/output.txt",
     "Programacion/c++/contest/1737/input.txt",
     "Programacion/c++/contest/1737/a.cpp",
-    "Programacion/c++/contest/1737/a",
-    "Programacion/c++/contest/1030/temp.txt",
-    "Programacion/c++/contest/1030/output.txt",
-    "Programacion/c++/contest/1030/input.txt",
-    "Programacion/c++/contest/1030/a",
-    "Programacion/scripts/CP-Scripts/README.md",
-    "GOICPC/Problems/Metcognition.md",
-    "GOICPC/Problems/1851D.md",
-    "GOICPC/Problems/1496B.md",
-    "GOICPC/Problems/1780B.md",
-    "GOICPC/Problems/1838B.md",
-    "GOICPC/Problems/1649B.md",
-    "GOICPC/Problems/1523B.md",
-    "GOICPC/Problems/1790D.md",
-    "GOICPC/Problems/1638B.md",
-    "GOICPC/Algoritmos/Programacion Dinamica.md",
-    "2024-03-06.md",
-    "GOICPC/Metacognicion.md",
-    "obsidian-habit-mood-tracker/Habit Tracker.md",
-    "obsidian-habit-mood-tracker/Resources/Templates/Daily Note.md",
-    "obsidian-habit-mood-tracker/Mood Tracker - no CJS.md",
-    "obsidian-habit-mood-tracker/Daily Notes/2022-01-05.md",
-    "obsidian-habit-mood-tracker/Daily Notes/2022-01-04.md",
-    "obsidian-habit-mood-tracker/Daily Notes/2022-01-03.md",
-    "obsidian-habit-mood-tracker/Daily Notes/2022-01-02.md",
-    "obsidian-habit-mood-tracker/Daily Notes/2022-01-01.md",
     "obsidian-habit-mood-tracker/images/task-collector.png",
     "obsidian-habit-mood-tracker/images/habit-mood-tracker-demo.png",
-    "obsidian-habit-mood-tracker/README.md",
-    "obsidian-habit-mood-tracker/Mood Tracker.md",
-    "obsidian-habit-mood-tracker/Habit Tracker - no CJS.md",
     "Pasted image 20240225150835.png"
   ]
 }

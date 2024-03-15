@@ -92,6 +92,7 @@ columns:
       - { label: "Implementacion", value: "Implementacion", color: "hsl(57, 95%, 90%)"}
       - { label: "Force Brute", value: "Force Brute", color: "hsl(83, 95%, 90%)"}
       - { label: "Number Theory", value: "Number Theory", color: "hsl(112, 95%, 90%)"}
+      - { label: "Combinatory", value: "Combinatory", color: "hsl(90, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -166,7 +167,7 @@ columns:
     accessorKey: newColumn7
     key: newColumn7
     id: newColumn7
-    label: Volver a resolver
+    label: Volver a resolver obligatoriamente
     position: 5
     skipPersist: false
     isHidden: false
