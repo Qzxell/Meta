@@ -1,0 +1,2 @@
+
+Una permutación es un arreglo ordenado de objetos. En términos matemáticos, una permutación de un conjunto de objetos es una ordenación de esos objetos en una secuencia específica. Por ejemplo, si tienes los elementos {A, B, C}, algunas permutaciones posibles incluirían ABC, BAC, CBA, etc. En general, el número de permutaciones de un conjunto de n elementos es n factorial, denotado como n!. Por lo tanto, para un conjunto de 3 elementos como en el ejemplo anterior, habría 3! = 3 x 2 x 1 = 6 permutaciones posibles.

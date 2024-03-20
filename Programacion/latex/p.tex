@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Solución del problema en LaTeX}
+\author{Tu nombre}
+\date{\today}
+
+\maketitle
+
+\section{Solución del problema}
+
+Dada la observación clave: $x \mod y < \frac{x}{2}$ si $x \geq y$, y $x \mod y = x$ si $x < y$. Notamos que mientras mayor sea $x$, mayor será el rango de valores que se pueden obtener después de una operación $\mod$. Por lo tanto, intuitivamente, queremos asignar valores de $a_i$ más pequeños a números más pequeños en la permutación resultante.
+
+Sin embargo, si $a_i$ satisface $1 \leq a_i \leq n$, podemos dejarlo allí y usarlo en la permutación resultante (si múltiples $a_i$ satisfacen $1 \leq a_i \leq n$ y tienen el mismo valor, simplemente elige uno). Supongamos en la solución óptima, cambiamos $x$ a $y$ y cambiamos $z$ a $x$ para algún $z > x > y$ (donde $x$, $y$, $z$ son valores, no índices). Entonces, cambiar $x$ a $x$ (es decir, no hacer nada) y cambiar $z$ a $y$ usa $1$ operación menos. Y, si es posible cambiar $z$ a $x$, entonces también debe ser posible cambiar $z$ a $y$. Sin embargo, si no es posible cambiar $z$ a $x$, aún podría ser posible cambiar $z$ a $y$.
+
+Por lo tanto, la solución es la siguiente: ordena el arreglo. Para cada elemento $i$ en el arreglo ordenado:
+
+\begin{itemize}
+    \item Si $1 \leq a_i \leq n$ y es la primera ocurrencia del elemento con valor $a_i$, déjalo allí.
+    \item De lo contrario, deja que el valor no asignado actual más pequeño en la permutación resultante sea $m$. Si $m < \frac{a_i}{2}$, podemos asignar el elemento actual al valor $m$ y agregar $1$ a la cantidad de operaciones. De lo contrario, produce $-1$ directamente.
+\end{itemize}
+
+La solución funciona en $O(n \log n)$.
+
+\end{document}

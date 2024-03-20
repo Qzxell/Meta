@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0c6053c7424daf8",
+        "id": "430c97744b2be954",
         "type": "tabs",
         "children": [
           {
-            "id": "194ceb8f48d33e36",
+            "id": "ee9877aefab56ebc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "database-plugin",
               "state": {
-                "file": "GOICPC/ProblemsCF/126A.md",
-                "mode": "source",
-                "source": false
+                "file": "GOICPC/ProblemsCF/Metcognition.md"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GOICPC/ProblemsCF/126A.md",
+                "file": "GOICPC/ProblemsCF/Metcognition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GOICPC/ProblemsCF/126A.md",
+                "file": "GOICPC/ProblemsCF/Metcognition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GOICPC/ProblemsCF/126A.md"
+                "file": "GOICPC/ProblemsCF/Metcognition.md"
               }
             }
           },
@@ -156,22 +154,44 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "dbfolder:Crear una nueva tabla de base de datos": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "dbfolder:Crear una nueva tabla de base de datos": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "194ceb8f48d33e36",
+  "active": "ee9877aefab56ebc",
   "lastOpenFiles": [
+    "GOICPC/ProblemsCF/1851D.md",
     "GOICPC/ProblemsCF/Metcognition.md",
     "GOICPC/ProblemsCF/126A.md",
+    "GOICPC/ProblemsCF/1899B.md",
+    "GOICPC/ProblemsCF/1279B.md",
+    "Programacion/c++/1279B.cpp~",
+    "Programacion/c++/4913",
+    "Programacion/c++/in~",
+    "Programacion/c++/1279B.cpp",
+    "GOICPC/Metacognicion.md",
+    "GOICPC/ProblemsCF/1617C.md",
+    "Programacion/c++/1762B.cpp~",
+    "Programacion/c++/a",
+    "Programacion/c++/1762B.cpp",
+    "GOICPC/Ramdom/Permutacion.md",
+    "[[GoICPC/Ramdom/Permutacion]].md",
+    "[[GoICPC/Ramdom",
+    "[[GoICPC",
+    "[[Permutacion]].md",
+    "Programacion/c++/1617C.cpp~",
+    "GOICPC/Algoritmos/Sortings.md",
+    "GOICPC/Estructura de Datos/s.md",
+    "GOICPC/Ramdom/Clases.md",
+    "GOICPC/Ramdom/Punteros.md",
     "GOICPC/ProblemsAtcoder/340d.md",
     "GOICPC/ProblemsAtcoder/Metcognition.md",
     "GOICPC/ProblemsAtcoder/340c.md",
@@ -184,30 +204,8 @@
     "GOICPC/ProblemsAtcoder/1933E.md",
     "GOICPC/ProblemsAtcoder/1933D.md",
     "GOICPC/ProblemsAtcoder/1933C.md",
-    "GOICPC/ProblemsAtcoder/1933B.md",
-    "GOICPC/ProblemsAtcoder/1933A.md",
-    "GOICPC/ProblemsAtcoder/1902C.md",
-    "GOICPC/ProblemsAtcoder/1899B.md",
-    "GOICPC/ProblemsAtcoder/1879C.md",
-    "GOICPC/ProblemsAtcoder/1857D.md",
-    "GOICPC/ProblemsAtcoder/1857B.md",
-    "GOICPC/ProblemsAtcoder/1851D.md",
-    "GOICPC/ProblemsAtcoder/1844C.md",
-    "GOICPC/ProblemsAtcoder/1838B.md",
-    "GOICPC/ProblemsAtcoder/1836B.md",
-    "GOICPC/ProblemsAtcoder/1790D.md",
-    "GOICPC/ProblemsAtcoder",
-    "GOICPC/ProblemsCF - Copy",
-    "Programacion/latex/teoria.pdf",
-    "Programacion/latex/ProblemSOl.pdf",
-    "config.py",
-    "init.vim",
     "Programacion/scripts/CP-Scripts/screenshots/cf_run_wrong_sol.png",
     "Programacion/scripts/CP-Scripts/screenshots/cf_run_accepted_sol.png",
-    "Programacion/c++/contest/1737/temp.txt",
-    "Programacion/c++/contest/1737/output.txt",
-    "Programacion/c++/contest/1737/input.txt",
-    "Programacion/c++/contest/1737/a.cpp",
     "obsidian-habit-mood-tracker/images/task-collector.png",
     "obsidian-habit-mood-tracker/images/habit-mood-tracker-demo.png",
     "Pasted image 20240225150835.png"
